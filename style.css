@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-dropdown{
+    display: inline;
+    
+}
+nav{
+    width: 100%;
+    z-index: 1000 !important;
+    position: fixed !important;
+    border-bottom: 1px solid lightgray;
+    top: 0;
+    height: 90px;
+}
+
+.nav-dropdown-heading{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.dropdown-con{
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul{
+    width: 100% !important;
+    margin-right: 0;
+    align-items: center;
+}
+
+.nav-search{
+    width: 70%;
+    height: 3rem;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    border-left: none;
+}
+
+.input-group .input-group-text{
+    background-color: white !important;
+    border-bottom-left-radius: .8rem;
+    border-top-left-radius: .8rem;
+}
+
+input:focus{
+    outline: none !important;
+    border-color: var(--bs-border-color) !important;
+    box-shadow: none !important;
+}
+
+#nav-btn{
+    font-size: 1.3rem !important;
+    text-decoration: none;
+    color: black;
+}
+
+.fa-cart-shop{
+    height: 1rem;
+}
+
+main{
+    width: 83%;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.banner{
+    scale: 1.01;
+}
+
+.banner>img{
+    width: 100%;
+}
+
+
+
+.main-slider-con{
+    width: 100%;
+    margin: auto;
+    overflow-x: scroll;
+}
+
+.main-slider-con::-webkit-scrollbar{
+    display: none;
+}
+
+.slider-img{
+    height: 200px;  
+    margin: 0.8rem;
+}
+.slider-img img{
+    height: inherit;
+    
+}
+
+.col{
+    width: 150px !important;
+    scale: 1.2;
+}
+.col>img{
+    width: 100%;
+}
+
+
+.dairy-products{
+    margin-top: 1.2rem;
+}
+
+.see-all{
+    color: rgb(58, 169, 58);
+    font-size: 1.26rem;
+    font-weight: 500;
+}
+
+.card>img{
+  width: 140px;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.card-text>img{
+    width: 11px;
+}
+.card-text{
+    font-size: 0.6rem;
+    margin: .2rem 0.3rem;
+    font-weight: 700;
+}
+
+.card-price{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.list-group-item{
+    font-size: 0.8rem;
+    margin: 0 1rem;
+}
+
+.card-body{
+    padding: 0 0.8rem!important;
+}
+
+.card-title{
+    font-size: 0.9rem;
+}
+
+.card{
+    padding-bottom: 0.5rem;
+    width: fit-content;
+    min-height: 280px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border: none !important;
+    
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: black !important;
+}
+
+.main-slider-con-2{
+    height: 300px;
+    overflow-x: scroll;
+}
+
+.main-slider-con-2::-webkit-scrollbar{
+    display: none;
+}
+
+footer{
+    width: 83%;
+    margin: 2rem auto;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-menu1 , .content-menu2{
+    display: flex;
+    justify-content: space-between
+}
+
+.con-1{
+    width: 30%;
+}
+.con-2{
+    width: 60%;
+}
+.con-1>h3 , .con-2>h3{
+    margin: 1.5rem;
+    margin-left: 0;
+    font-size: 1.3rem;
+
+}
+
+.content-info>p{
+    line-height: 0.8;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.footer-bottom>div{
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom{
+    margin: 1.2rem 0;
+}
+
+.footer-bottom>div>img{
+    height: 1.8rem;
+    margin: 0 0.7rem;
+}
+
+.footer-bottom .fa-brands{
+    font-size: 1.5rem;
+}
+
+.logo-svg{
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 1.5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.2rem;
+}
+
+.copyright{
+    color: gray;
+    font-size: 0.8rem;
+}
